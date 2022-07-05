@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?> <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.snake.dao.UserMapper">
+    <select id="findAll" resultType="com.snake.pojo.User">
+        select id,user_name username,password,name,age,email from tb_user
+    </select>
+</mapper>

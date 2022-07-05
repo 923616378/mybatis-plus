@@ -1,0 +1,3 @@
+# Project exclude paths
+/mybatis-plus-simple/target/
+/mybatis-plus-spring/target/
